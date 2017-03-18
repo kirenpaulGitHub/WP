@@ -22,6 +22,11 @@ namespace BingMaps
             //BuildLocalizedApplicationBar();
         }
 
+        private void TextBlock_Tap(object sender, System.Windows.Input.GestureEventArgs e)
+        {
+            NavigationService.Navigate('');
+        }
+
         // Sample code for building a localized ApplicationBar
         //private void BuildLocalizedApplicationBar()
         //{
